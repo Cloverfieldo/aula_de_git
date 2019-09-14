@@ -1,1 +1,1 @@
-qualque coisa ai
+qualquer coisa ai
