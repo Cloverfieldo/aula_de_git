@@ -1,15 +1,13 @@
 <meta charset="UTF-8">
+<h3>CONSUMO DE GASOLINA</h3>
 <script>
-    var paulo = 14;
-    var renato = 9;
-    var lucas = 7;
-    var media = (paulo + renato + lucas) / 2
-
-    document.write("Eu tenho " + paulo + " anos");
-    document.write("<br>");
-    document.write("O Renato tem " + renato + " anos");
-    document.write("<br>");
-    document.write("O Lucas tem " + lucas + " anos");
-    document.write("<br>");
-    document.write("A média das nossas idades é " + media);
+travel = 400
+consumeOfGas = 40
+gasPerKilometer = travel / consumeOfGas
+travelWithEtanol = 300
+consumeOfEtanol = 40
+etanolPerKilometer = travelWithEtanol / consumeOfEtanol
+document.write("Você gastou " + gasPerKilometer +" por kilometro")
+document.write("<br>")
+document.write("Com etanol você gastou " + etanolPerKilometer)
 </script>
